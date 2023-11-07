@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
 
         <div className='fixed right-2'>
-          <Search setTextInput={(e) => { }} textInput='' />
+          <Search setTextInput={() => { }} textInput='' />
         </div>
 
       </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../shared/Logo'
 import Menu from './shared/Menu'
 import Header from './shared/Header'

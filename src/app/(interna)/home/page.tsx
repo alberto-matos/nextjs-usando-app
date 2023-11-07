@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '@/app/(interna)/shared/Title'
 import FastAccess from '@/app/(interna)/home/fastAccess'
-import { IconArrowsJoin2, IconBug, IconDatabase, IconLoader, IconRoute, IconRoute2 } from '@tabler/icons-react'
+import { IconApi, IconArrowsJoin2, IconBug, IconDatabase, IconLoader, IconRoute, IconRoute2 } from '@tabler/icons-react'
 
 export default function Page() {
   return (
@@ -15,6 +15,7 @@ export default function Page() {
           <FastAccess title='Rota Dinâmica #2' icon={<IconRoute2 />} url='/dynamic/course/abc?address=rua xpto' />
           <FastAccess title='Rota Paralela' icon={<IconArrowsJoin2 />} url='/parallels' />
           <FastAccess title='Estado' icon={<IconDatabase />} url='/state' />
+          <FastAccess title='Usando API' icon={<IconApi />} url='/db' />
         </div>
       </div>
     </div>

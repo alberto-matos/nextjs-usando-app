@@ -1,9 +1,8 @@
 import React from 'react'
-import Title from '../shared/Title'
 
 function LoadingApi(): Promise<number> {
   return (
-    new Promise((resolve, reject) => {
+    new Promise((resolve) => {
       setTimeout(() => {
         resolve((Math.random() * 100).toFixed(0) as any)
       }, 2000)

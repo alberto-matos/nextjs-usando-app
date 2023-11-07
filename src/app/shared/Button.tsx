@@ -1,10 +1,9 @@
-import React from "react"
 import Link from "next/link"
 
 export interface ButtonProps {
   url?: string
   highlight?: boolean
-  onClick?: (e: any) => void
+  onClick?: () => void
   greater?: boolean
   children?: any
 }

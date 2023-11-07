@@ -1,9 +1,8 @@
 import React from 'react'
 import Logo from '@/app/shared/Logo'
 import Menu from './Menu'
-import Search from '@/app/shared/Search'
 import Button from '@/app/shared/Button'
-import { IconTriangleFilled, IconTriangleSquareCircleFilled } from '@tabler/icons-react'
+import { IconTriangleSquareCircleFilled } from '@tabler/icons-react'
 
 export default function Header() {
   return (

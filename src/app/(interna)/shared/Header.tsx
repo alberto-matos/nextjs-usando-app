@@ -1,5 +1,4 @@
 import { IconMenu2 } from '@tabler/icons-react'
-import React from 'react'
 import UserMenu from './UserMenu'
 
 export default function Header() {

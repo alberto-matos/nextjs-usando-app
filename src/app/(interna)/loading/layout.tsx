@@ -1,9 +1,6 @@
 import Title from '../shared/Title'
 
-export default function Layout(props: {
-  children: React.ReactNode
-  firstApi: React.ReactNode
-}) {
+export default function Layout(props: any) {
   return (
     <div className="h-full">
       <Title
