@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import MenuItem from './MenuItem'
-import { IconLayoutDashboard, IconLoader, IconBug, IconRoute, IconRoute2, IconArrowsJoin2 } from '@tabler/icons-react'
+import { IconLayoutDashboard, IconLoader, IconBug, IconRoute, IconRoute2, IconArrowsJoin2, IconDatabase } from '@tabler/icons-react'
 import MenuGroup from './MenuGroup'
 import Search from '../../shared/Search'
 import { usePathname } from 'next/navigation'
@@ -48,6 +48,12 @@ export default function Menu() {
             url='/parallels'
             icon={<IconArrowsJoin2 />}
             selected={url === '/parallels'}
+          />
+          <MenuItem
+            title='Estados'
+            url='/state'
+            icon={<IconDatabase />}
+            selected={url === '/state'}
           />
         </MenuGroup>
       </div>
