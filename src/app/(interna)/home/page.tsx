@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '@/app/(interna)/shared/Title'
-import FastAccess from '@/app/(interna)/home/FastAccess'
+import FastAccess from '@/app/(interna)/home/fastAccess'
 import { IconArrowsJoin2, IconBug, IconLoader, IconRoute, IconRoute2 } from '@tabler/icons-react'
 
 export default function Page() {
